@@ -1,4 +1,3 @@
-import org.jetbrains.annotations.NotNull;
 import util.Card;
 import util.CardType;
 
@@ -46,7 +45,7 @@ public class Main {
 
     }
 
-    static private void draw(@NotNull List<Card> player) {
+    static private void draw(List<Card> player) {
         if (allCards.isEmpty()) {
             System.out.println("平局！");
             ifAllCardEmpty=true;
@@ -56,11 +55,11 @@ public class Main {
         allCards.remove(0);
     }
 
-    static private void play(@NotNull List<Card> player) {
+    static private void play(List<Card> player) {
         player.remove(0);
     }
 
-    static private void drawEndCard(@NotNull List<Card> player) {
+    static private void drawEndCard(List<Card> player) {
         if (allCards.isEmpty()) {
             System.out.println("平局！");
             return;
