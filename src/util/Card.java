@@ -1,6 +1,5 @@
 package util;
 
-import org.jetbrains.annotations.NotNull;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -16,9 +15,8 @@ public class Card implements Comparable<Card> {
         return Util.nameMap.get(type);
     }
 
-
     @Override
-    public int compareTo(@NotNull Card o) {
+    public int compareTo(Card o) {
         return this.type.compareTo(o.type);
     }
 }

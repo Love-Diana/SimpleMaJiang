@@ -6,11 +6,13 @@ import java.util.Collections;
 import java.util.List;
 
 public class Main {
+    // 手牌
     static List<Card> allCards=new ArrayList<>();
     static List<Card> player1 =new ArrayList<>();
     static List<Card> player2 =new ArrayList<>();
     static List<Card> player3 =new ArrayList<>();
     static List<Card> player4 =new ArrayList<>();
+    // 副露牌
     static List<Card> outside1 =new ArrayList<>();
     static List<Card> outside2 =new ArrayList<>();
     static List<Card> outside3 =new ArrayList<>();
